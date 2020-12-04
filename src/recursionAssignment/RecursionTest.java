@@ -28,4 +28,10 @@ public class RecursionTest{
         // assertTrue(TESTBOOLEAN);
     }
     
+    @Test
+    public void Test3(){
+        // make assertion statement(s)
+     assertEquals(0, Recursion.count7(17));
+        // assertTrue(TESTBOOLEAN);
+    }
 }
