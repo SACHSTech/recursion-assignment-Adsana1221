@@ -10,6 +10,7 @@ public static int count7(int n){
   if (n < 7){
     return 0;
   }
+    // if the right most number is 7, return a count of 1
     else if (n % 10 == 7){
       return 1;
     }
