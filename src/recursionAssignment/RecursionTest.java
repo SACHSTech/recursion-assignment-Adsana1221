@@ -28,10 +28,12 @@ public class RecursionTest{
         // assertTrue(TESTBOOLEAN);
     }
     
-    @Test
+     @Test
     public void Test3(){
         // make assertion statement(s)
-     assertEquals(0, Recursion.count7(17));
+     assertEquals(2, Recursion.count7(773));
         // assertTrue(TESTBOOLEAN);
     }
+    
+    
 }
