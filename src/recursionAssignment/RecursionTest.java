@@ -81,4 +81,11 @@ public class RecursionTest{
      assertEquals("abc", Recursion.stringClean("aabbc"));
         // assertTrue(TESTBOOLEAN);
     }
+
+    @Test
+    public void Test9(){
+        // make assertion statement(s)
+     assertEquals("helo", Recursion.stringClean("hello"));
+        // assertTrue(TESTBOOLEAN);
+    }
 }

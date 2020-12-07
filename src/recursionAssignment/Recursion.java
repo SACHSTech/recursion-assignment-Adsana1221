@@ -36,6 +36,24 @@ public static String changePi(String strWord){
     }
     }
 
+public static String stringClean(String strWord){
+  if (strWord.equals("")){
+    
+    return("");
+  }
+
+  if (strWord.length() == 1){
+    return strWord;
+
+  }else if (strWord.charAt(0) == strWord.charAt(1)){
+    return stringClean(strWord.substring(1));
+
+  }else{
+    return strWord.charAt(0) + stringClean(strWord.substring(1));
+  }
+   
+
+}
 
 }
 
