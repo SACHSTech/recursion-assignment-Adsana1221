@@ -23,11 +23,15 @@ public static int count7(int n){
 
 public static String changePi(String strWord){
   if (strWord.equals("")){
+    
     return("");
 
-    }else if(strWord.substring(0,1).equals("p") && strWord.substring(1,2).equals("i")){
+    }else if (strWord.substring(0,1).equals("p") && strWord.substring(1,2).equals("i")){
+
       return (3.14) + changePi(strWord.substring(2));
+
     }else{
+
       return strWord.substring(0,1) + strWord.substring(1,2) + changePi(strWord.substring(2));
     }
     }
