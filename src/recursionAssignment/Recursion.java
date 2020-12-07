@@ -2,7 +2,11 @@ package recursionAssignment;
 
 public class Recursion{
 
-
+  /**
+  * Program that counts how many '7' is in a number
+  * @param n, the number we are checking the digits '7' for
+  * @return how many times 7 occurs
+  */
 public static int count7(int n){
   
   // base case
@@ -22,6 +26,11 @@ public static int count7(int n){
      }
 }
 
+  /**
+  * Program that converts pi to 3.14
+  * @param strWord, the word we are using to check for pi
+  * @return how 3.14 instead of pi
+  */
 public static String changePi(String strWord){
   // Base Case
   if (strWord.equals("")){
@@ -40,6 +49,12 @@ public static String changePi(String strWord){
     }
     }
 
+
+ /**
+  * Program that changes same adjacent characters into one character
+  * @param strWord, the word we are using to check for pi
+  * @return how 3.14 instead of pi
+  */
 public static String stringClean(String strWord){
   // Base Code
   if (strWord.equals("")){
@@ -59,7 +74,6 @@ public static String stringClean(String strWord){
     return strWord.charAt(0) + stringClean(strWord.substring(1));
   }
    
-
 }
 
 }
