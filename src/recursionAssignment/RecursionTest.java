@@ -46,5 +46,18 @@ public class RecursionTest{
      assertEquals("", Recursion.changePi(""));
         // assertTrue(TESTBOOLEAN);
     }
+
+   @Test
+    public void Test5(){
+        // make assertion statement(s)
+     assertEquals("xpix", Recursion.changePi("x3.14x"));
+        // assertTrue(TESTBOOLEAN);
+    }
     
+    @Test
+    public void Test6(){
+        // make assertion statement(s)
+     assertEquals("pipi", Recursion.changePi("3.143.14"));
+        // assertTrue(TESTBOOLEAN);
+    }
 }
