@@ -8,7 +8,7 @@ import recursionAssignment.Recursion;
 
 public class RecursionTest{
     
-    
+    // problem 1
     /**
      * An initial test
      */
@@ -35,5 +35,16 @@ public class RecursionTest{
         // assertTrue(TESTBOOLEAN);
     }
     
+    
+    // problem 2 
+    /**
+     * An initial test
+     */
+    @Test
+    public void Test4(){
+        // make assertion statement(s)
+     assertEquals("", Recursion.changePi(""));
+        // assertTrue(TESTBOOLEAN);
+    }
     
 }

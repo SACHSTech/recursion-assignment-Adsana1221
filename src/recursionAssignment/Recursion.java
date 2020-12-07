@@ -20,6 +20,11 @@ public static int count7(int n){
       return count7(n / 10);
      }
 }
+
+//public static String changePi(String str){
+
+//}
+
 }
 
 
