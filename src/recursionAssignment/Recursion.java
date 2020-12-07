@@ -10,6 +10,7 @@ public static int count7(int n){
   if (n < 7){
     return 0;
   }
+    // Recursive Step
     // if the right most number is 7, return a count of 1
     // if not 7, take the last digits out and try again with the remaining digits
     else if (n % 10 == 7){
@@ -22,11 +23,14 @@ public static int count7(int n){
 }
 
 public static String changePi(String strWord){
+  // Base Case
   if (strWord.equals("")){
     
     return("");
-
-    }else if (strWord.substring(0,1).equals("p") && strWord.substring(1,2).equals("i")){
+    
+    // Recursive Step
+    // if two substrings beside each other is pi, then 3.14 and the rest of that word will be returned
+    }else if (strWord.substring(0,1).equals("p") &&      strWord.substring(1,2).equals("i")){
 
       return (3.14) + changePi(strWord.substring(2));
 
@@ -37,6 +41,7 @@ public static String changePi(String strWord){
     }
 
 public static String stringClean(String strWord){
+  // Base Code
   if (strWord.equals("")){
     
     return("");
@@ -44,7 +49,9 @@ public static String stringClean(String strWord){
 
   if (strWord.length() == 1){
     return strWord;
-
+  
+  // Recursive Step
+  // If one char and the char beside it are the same, print only one of them and the rest of the word 
   }else if (strWord.charAt(0) == strWord.charAt(1)){
     return stringClean(strWord.substring(1));
 
