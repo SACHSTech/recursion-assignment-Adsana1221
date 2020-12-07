@@ -54,4 +54,31 @@ public class RecursionTest{
      assertEquals("3.143.14", Recursion.changePi("pipi"));
         // assertTrue(TESTBOOLEAN);
     }
+
+
+    // problem 3 
+    /**
+     * An initial test
+     */
+    @Test
+    public void Test6(){
+        // make assertion statement(s)
+     assertEquals("", Recursion.stringClean(""));
+        // assertTrue(TESTBOOLEAN);
+    }
+ 
+    @Test
+    public void Test7(){
+        // make assertion statement(s)
+     assertEquals("abc", Recursion.stringClean("abc"));
+        // assertTrue(TESTBOOLEAN);
+    }
+    
+
+    @Test
+    public void Test8(){
+        // make assertion statement(s)
+     assertEquals("abc", Recursion.stringClean("aabbc"));
+        // assertTrue(TESTBOOLEAN);
+    }
 }

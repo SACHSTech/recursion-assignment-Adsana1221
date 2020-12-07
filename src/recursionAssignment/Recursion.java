@@ -35,6 +35,8 @@ public static String changePi(String strWord){
       return strWord.substring(0,1) + strWord.substring(1,2) + changePi(strWord.substring(2));
     }
     }
+
+
 }
 
 
